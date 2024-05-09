@@ -18,14 +18,12 @@ const Dashboard = () => {
         const getStack = async () => {
             try {
                 const user_id = localStorage.getItem("user_id");
-                console.log(user_id);
                 const res = await axios.get(`${import.meta.env.VITE_API_URL}/get_stacks`, {
                     params: {
                         user_id: user_id
                     }
                 });
                 if (res.data.status === 'success') {
-                    console.log(res.data.stacks);
                     setStacks(res.data.stacks);
                 }
             } catch (error) {

@@ -57,7 +57,6 @@ const DnDFlow = ({ workflowID }) => {
             // if (res.data.status == 'success') {
             // const nodesList = res.data.workflow.nodes.map(node => ({ id: node.id, name: node.name }))
             // const edgesList = res.data.workflow.edges.map(edge => ({ source: edge.source, target: edge.target }))
-            console.log(res.data);
             setNodes(res.data.nodes)
             setEdges(res.data.edges)
             // }

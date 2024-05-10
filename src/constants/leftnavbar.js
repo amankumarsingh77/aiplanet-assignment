@@ -12,20 +12,6 @@ const navItems = [
       },
     ],
   },
-  //   {
-  //     name: "Chains",
-  //     items: ["LLMChain", "RetrievalQA", "ConversationalChain"]
-  //   },
-  //   {
-  //     name: "LLMS",
-  //     items: [
-  //       "OpenAI",
-  //       "AzureChatOpenAI",
-  //       "VertexAI",
-  //       "Cohere",
-  //       "HuggingFaceHub"
-  //     ]
-  //   }
   ];
   
   export default navItems;
